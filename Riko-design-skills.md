@@ -16,7 +16,10 @@
 │   └── design-tokens.css             # 可直接引入的 CSS 变量与 WebFont 链接
 ├── design-md/
 │   ├── mastercard/DESIGN.md          # 色彩体系、画布质感、轨道药丸几何核心参考
-│   └── claude/DESIGN.md              # 排版节奏、层级权重、间距比例核心参考
+│   ├── claude/DESIGN.md              # 排版节奏、层级权重、间距比例核心参考
+│   └── UPSTREAM.md                   # VoltAgent 来源提交与许可证记录
+├── scripts/
+│   └── sync-design-md.ps1            # 仅同步 Mastercard 和 Claude 两份设计规范
 ├── emilkowalski-skills/              # 动效工程与微交互技能库
 │   └── skills/
 │       ├── animate/                  # 动画基本实现范式
@@ -29,7 +32,7 @@
     └── references/                   # 详细规范引用与视觉指标
 ```
 
-`design-md/mastercard/DESIGN.md` 与 `design-md/claude/DESIGN.md` 是从 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) 复制的设计规范快照，并沿用其 `design-md/<brand>/DESIGN.md` 目录布局；精确来源提交与许可证见 [README.md](README.md)。
+`design-md/mastercard/DESIGN.md` 与 `design-md/claude/DESIGN.md` 由 `scripts/sync-design-md.ps1` 从 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) 同步，且只拉取这两个文件。运行脚本后，精确来源提交记录在 `design-md/UPSTREAM.md`。
 
 ---
 
