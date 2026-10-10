@@ -1,0 +1,6 @@
+[submodule "emilkowalski-skills"]
+	path = emilkowalski-skills
+	url = https://github.com/emilkowalski/skills.git
+[submodule "apple-design-skill"]
+	path = apple-design-skill
+	url = https://github.com/dickwu/apple-design-skill.git
