@@ -39,14 +39,13 @@ git clone --recurse-submodules https://github.com/AkinoHaruka/Riko-Design.git
 
 完整色板、字体层级、间距、组件示例与交付清单请见 [`Riko-design-skills.md`](Riko-design-skills.md)。
 
-## 上游来源
+## 上游来源与素材说明
 
-- [getdesign.md / Mastercard](https://getdesign.md/mastercard/design-md)：色彩系统与轨道几何参考。
-- [getdesign.md / Claude](https://getdesign.md/claude/design-md)：排版层级与比例参考。
+- **Mastercard 与 Claude 设计规范**：[`specs/mastercard/DESIGN.md`](specs/mastercard/DESIGN.md) 和 [`specs/claude/DESIGN.md`](specs/claude/DESIGN.md) 是从 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) 复制的快照，与该仓库 `design-md/mastercard/DESIGN.md`、`design-md/claude/DESIGN.md` 文件内容一致。对应来源固定在 [commit `13be5c0`](https://github.com/VoltAgent/awesome-design-md/tree/13be5c05c63be24b57581162364167028020f043)，该来源仓库采用 MIT License。该仓库的品牌说明页将在线版本指向 [getdesign.md / Mastercard](https://getdesign.md/mastercard/design-md) 和 [getdesign.md / Claude](https://getdesign.md/claude/design-md)。
 - [Emil Kowalski / skills](https://github.com/emilkowalski/skills)：弹簧动效、微交互与动画工程实践。
 - [Dick Wu / apple-design-skill](https://github.com/dickwu/apple-design-skill)：Apple HIG 摘要与设计审查参考。
 
-上游仓库以 Git 子模块固定在当前版本，目录内的内容仍归各自上游项目管理。根目录尚未声明覆盖整份合集的统一许可证；上游许可与原始来源说明应随各自材料一并遵守。
+Emil 与 Apple 参考仓库以 Git 子模块固定在各自版本；设计规范文件则作为 VoltAgent 仓库快照存放在 `specs/`。根目录尚未声明覆盖整份合集的统一许可证；上游许可与原始来源说明应随各自材料一并遵守。
 
 ## Agent 协作流程
 

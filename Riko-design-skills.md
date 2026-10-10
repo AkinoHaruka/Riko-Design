@@ -29,6 +29,8 @@
     └── references/                   # 详细规范引用与视觉指标
 ```
 
+`specs/mastercard/DESIGN.md` 与 `specs/claude/DESIGN.md` 是从 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) 复制的设计规范快照，精确来源提交与许可证见 [README.md](README.md)。
+
 ---
 
 ## 2. 颜色体系 (Color System - 严格源自 Mastercard)
