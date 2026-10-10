@@ -8,8 +8,8 @@
 | --- | --- |
 | [`Riko-design-skills.md`](Riko-design-skills.md) | 完整设计规范、Agent 实施指引与交付自检清单 |
 | [`styles/design-tokens.css`](styles/design-tokens.css) | CSS 色彩、字体、圆角、阴影、动效和按钮基础样式 |
-| [`specs/mastercard/DESIGN.md`](specs/mastercard/DESIGN.md) | Mastercard 设计参考：色彩、画布质感与几何形态 |
-| [`specs/claude/DESIGN.md`](specs/claude/DESIGN.md) | Claude 设计参考：排版层级与版式比例 |
+| [`design-md/mastercard/DESIGN.md`](design-md/mastercard/DESIGN.md) | Mastercard 设计参考：色彩、画布质感与几何形态 |
+| [`design-md/claude/DESIGN.md`](design-md/claude/DESIGN.md) | Claude 设计参考：排版层级与版式比例 |
 | [`emilkowalski-skills/`](https://github.com/emilkowalski/skills) | Emil Kowalski 的动效与设计工程技能，上游 Git 子模块 |
 | [`apple-design-skill/`](https://github.com/dickwu/apple-design-skill) | Apple HIG 设计参考，上游 Git 子模块 |
 
@@ -41,15 +41,15 @@ git clone --recurse-submodules https://github.com/AkinoHaruka/Riko-Design.git
 
 ## 上游来源与素材说明
 
-- **Mastercard 与 Claude 设计规范**：[`specs/mastercard/DESIGN.md`](specs/mastercard/DESIGN.md) 和 [`specs/claude/DESIGN.md`](specs/claude/DESIGN.md) 是从 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) 复制的快照，与该仓库 `design-md/mastercard/DESIGN.md`、`design-md/claude/DESIGN.md` 文件内容一致。对应来源固定在 [commit `13be5c0`](https://github.com/VoltAgent/awesome-design-md/tree/13be5c05c63be24b57581162364167028020f043)，该来源仓库采用 MIT License。该仓库的品牌说明页将在线版本指向 [getdesign.md / Mastercard](https://getdesign.md/mastercard/design-md) 和 [getdesign.md / Claude](https://getdesign.md/claude/design-md)。
+- **Mastercard 与 Claude 设计规范**：[`design-md/mastercard/DESIGN.md`](design-md/mastercard/DESIGN.md) 和 [`design-md/claude/DESIGN.md`](design-md/claude/DESIGN.md) 是从 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) 复制的快照，与该仓库 `design-md/mastercard/DESIGN.md`、`design-md/claude/DESIGN.md` 文件内容一致。对应来源固定在 [commit `13be5c0`](https://github.com/VoltAgent/awesome-design-md/tree/13be5c05c63be24b57581162364167028020f043)，该来源仓库采用 MIT License。该仓库的品牌说明页将在线版本指向 [getdesign.md / Mastercard](https://getdesign.md/mastercard/design-md) 和 [getdesign.md / Claude](https://getdesign.md/claude/design-md)。
 - [Emil Kowalski / skills](https://github.com/emilkowalski/skills)：弹簧动效、微交互与动画工程实践。
 - [Dick Wu / apple-design-skill](https://github.com/dickwu/apple-design-skill)：Apple HIG 摘要与设计审查参考。
 
-Emil 与 Apple 参考仓库以 Git 子模块固定在各自版本；设计规范文件则作为 VoltAgent 仓库快照存放在 `specs/`。根目录尚未声明覆盖整份合集的统一许可证；上游许可与原始来源说明应随各自材料一并遵守。
+Emil 与 Apple 参考仓库以 Git 子模块固定在各自版本；VoltAgent 设计规范快照放在与上游一致的 `design-md/<brand>/` 目录。根目录尚未声明覆盖整份合集的统一许可证；上游许可与原始来源说明应随各自材料一并遵守。
 
 ## Agent 协作流程
 
 1. 开始设计或编码前阅读 [`Riko-design-skills.md`](Riko-design-skills.md)。
-2. 色彩与几何查阅 `specs/mastercard/DESIGN.md`；排版查阅 `specs/claude/DESIGN.md`。
+2. 色彩与几何查阅 `design-md/mastercard/DESIGN.md`；排版查阅 `design-md/claude/DESIGN.md`。
 3. 动效查阅 `emilkowalski-skills/skills/`；Apple 平台工艺查阅 `apple-design-skill/SKILL.md`。
 4. 优先复用 `styles/design-tokens.css`，交付前完成规范文档第 7 节的自检。

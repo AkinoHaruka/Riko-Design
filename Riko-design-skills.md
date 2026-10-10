@@ -14,7 +14,7 @@
 ├── Riko-design-skills.md             # [当前文件] Agent 全局设计总则与查阅索引
 ├── styles/
 │   └── design-tokens.css             # 可直接引入的 CSS 变量与 WebFont 链接
-├── specs/
+├── design-md/
 │   ├── mastercard/DESIGN.md          # 色彩体系、画布质感、轨道药丸几何核心参考
 │   └── claude/DESIGN.md              # 排版节奏、层级权重、间距比例核心参考
 ├── emilkowalski-skills/              # 动效工程与微交互技能库
@@ -29,7 +29,7 @@
     └── references/                   # 详细规范引用与视觉指标
 ```
 
-`specs/mastercard/DESIGN.md` 与 `specs/claude/DESIGN.md` 是从 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) 复制的设计规范快照，精确来源提交与许可证见 [README.md](README.md)。
+`design-md/mastercard/DESIGN.md` 与 `design-md/claude/DESIGN.md` 是从 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) 复制的设计规范快照，并沿用其 `design-md/<brand>/DESIGN.md` 目录布局；精确来源提交与许可证见 [README.md](README.md)。
 
 ---
 
